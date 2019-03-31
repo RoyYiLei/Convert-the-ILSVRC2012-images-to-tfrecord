@@ -17,7 +17,7 @@ from scipy.io import loadmat
 import caffe_classes
  
 max_num = 1000  #max record number in one file
-train_path1 = 'F:/train/'  #the folder stroes the train images, and the folder contains 1000 folders.
+train_path1 = 'F:/train/'  #the folder stroes the train images, and the folder contains 1000 folders.Put the image in SSD faster 25x than Mechanical hard disk.
 #train_path2 = 'C:/train/'  #while my PC SSD do not enough space to store the ILSVRC2012 train images,I divide the training images into two copies. 
 valid_path = 'F:/ILSVRC2012_img_val/'  #the folder stroes the validation images
 meta_path = 'E:/ILSVRC2012/data/meta.mat' #the file download from ILSVRC2012, while contains the information about ['ILSVRC2012_ID', 'WNID', 'words', 'gloss', 'num_children', 'children', 'wordnet_height', 'num_train_images']
