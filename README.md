@@ -10,7 +10,7 @@ format according to the label of caffe_classes. The picture following shows the 
 
 ![image](https://github.com/RoyYiLei/Convert-the-ILSVRC2012-images-to-tfrecord/blob/master/images/pic%201.png)
 
-Just change the file address in the code and number of CPU cores to process in the tfrecord_maker.py, I run the code in WIN10, tensorflow1.10, and the tfrecord will test the tfrecord file work or not by generating 20 images and labels. 
+Just change the file address in the code and number of CPU cores to process in the tfrecord_maker.py, I run the code in WIN10, tensorflow1.10, and the tfrecord will test the tfrecord file work or not by generating 20 images with label. 
 
 
 Reference：https://blog.csdn.net/gzroy/article/details/85954329.
