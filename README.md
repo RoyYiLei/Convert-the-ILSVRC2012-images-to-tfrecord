@@ -8,3 +8,9 @@ In the while,  the labels in meta.mat(download from IMAGENET: http://www.image-n
 does not match the pre-training model (caffe_classes.py). So the aim is to convert the ILSVRC train and validation images to tfrecord 
 format according to the label of caffe_classes. The picture following shows the relationship of each file.
 
+![image](https://github.com/RoyYiLei/Convert-the-ILSVRC2012-images-to-tfrecord/blob/master/images/pic%201.png)
+
+Just change the file address in the code and number of CPU cores to process in the tfrecord_maker.py, I run the code in WIN10, tensorflow1.10, and the tfrecord will test the tfrecord file work or not by generating 20 images and labels. 
+
+
+Reference：https://blog.csdn.net/gzroy/article/details/85954329.
